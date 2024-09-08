@@ -1,0 +1,6 @@
+1. A vpc with CIDR block 10.0.0.0/16
+2. A public subnet with a CIDR block 10.0.1.0/24
+3. A private subnet with a CIDR block 10.0.2.0/24
+4. One Internet Gateway
+5. One public route table with a route to the Internet Gateway, and the correct association between the public subnet 
+   and the public route table   
